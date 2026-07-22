@@ -5,7 +5,7 @@ def main(page: ft.Page):
     page.window.width = 320
     page.window.height = 450
 
-    result = ft.Text(value="0", size=32, color=ft.Colors.WHITE)
+    result = ft.Text(value="0", size=45, color=ft.Colors.WHITE)
 
     def button_click(e):
         data = e.control.data
