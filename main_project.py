@@ -3,7 +3,7 @@ import flet as ft
 def main(page: ft.Page):
     page.title = "Calculator"
     page.window.width = 320
-    page.window.height = 350
+    page.window.height = 450
 
     result = ft.Text(value="0", size=32, color=ft.Colors.WHITE)
 
@@ -29,7 +29,7 @@ def main(page: ft.Page):
         return ft.ElevatedButton(
             label,
             data = label,
-            on_click = buttom_click,
+            on_click = button_click,
             expand = True,
         )
     page.add(
