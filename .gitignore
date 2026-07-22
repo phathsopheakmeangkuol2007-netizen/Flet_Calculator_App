@@ -1,0 +1,13 @@
+# Virtual Environment
+venv/
+.venv/
+
+# Python cache & build files
+__pycache__/
+*.pyc
+build/
+dist/
+*.spec
+
+# System files
+.DS_Store
